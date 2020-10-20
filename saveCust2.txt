@@ -1,0 +1,19 @@
+bellamanzo99@gmail.com,Bella Manzo,Heavy Pants,Sörmland Tapered Winter,Dark Olive,44
+bellamanzo99@gmail.com,Bella Manzo,Eco-Shell Jacket's,Abisko Eco-Shell,Black,S
+bellamanzo99@gmail.com,Bella Manzo,Light Pants,High Coast Trouser,Sand,44
+bellamanzo99@gmail.com,Bella Manzo,Boots,Anvik,Brown,7
+bellamanzo99@gmail.com,Bella Manzo,Parka's,Expedition Down Lite,Green,S
+bellamanzo99@gmail.com,Bella Manzo,Parka's,Singi Down,Deep Forest,S
+logan-mann@gmail.com,Logan Mann,Parka's,Expedition Down Lite,Black,L
+logan-mann@gmail.com,Logan Mann,Parka's,Singi Down,Deep Forest,L
+gentian.vuthi@gmail.com,Gentian Vuthi,Mid-Weight Jacket's,Räven,Black,S
+gentian.vuthi@gmail.com,Gentian Vuthi,Eco-Shell Jacket's,Keb Eco-Shell,Black,M
+gentian.vuthi@gmail.com,Gentian Vuthi,Light Pants,Abisko Lite,Black,46
+gentian.vuthi@gmail.com,Gentian Vuthi,Boots,Lhasa,Brown,11
+gentian.vuthi@gmail.com,Gentian Vuthi,Mid-Weight Jacket's,Greenland Down No. 1,Dusk,S
+gentian.vuthi@gmail.com,Gentian Vuthi,Eco-Shell Jacket's,High Coast Eco-Shell Padded,Navy,M
+gentian.vuthi@gmail.com,Gentian Vuthi,Heavy Pants,Keb,Black,50
+gentian.vuthi@gmail.com,Gentian Vuthi,Light Pants,High Coast Hike,Mountain Grey,46
+schutte_christopher@yahoo.com,Christopher Schutte,Boots,Tatra Light,Brown,10
+schutte_christopher@yahoo.com,Christopher Schutte,Mid-Weight Jacket's,Räven,Black,M
+schutte_christopher@yahoo.com,Christopher Schutte,Boots,Lhasa,Brown,12

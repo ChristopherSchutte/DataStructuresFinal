@@ -1,0 +1,6214 @@
+
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ ./a.out
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+14
+
+Do you want to save this database? 1. Yes 2. No
+2
+
+Goodbye!
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ g++ -std=c++11 customerhashtable.cpp database.cpp inventory.cpp purchasedheap.cpp retaildriver.cpp inventoryheap.cpp
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ ./a.out
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+1
+
+Enter an inventory file name:
+Inven1.txt
+
+Inventory items succesfully added
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+2
+
+Enter an customer purchases file name:
+CustLog1.txt
+
+
+Customer purchases successfully added
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+13
+
+Product Catagory: Light Pants
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 1
+
+Product Catagory: Eco-Shell Jacket's
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: S
+  Number Purchased: 1
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: M
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Mid-Weight Jacket's
+
+  Product Name: Räven
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Boots
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10
+  Number Purchased: 3
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+Product Catagory: Parka's
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: S
+  Number Purchased: 2
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Singi Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Heavy Pants
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 48
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Keb
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+6
+
+----------------------------------
+Customer name: Logan Mann
+Customer email: logan-mann@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: S, Number purchased: 2
+Singi Down, Category: Parka's, Color: Deep Forest, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 44, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Gentian Vuthi
+Customer email: gentian.vuthi@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Keb Eco-Shell, Category: Eco-Shell Jacket's, Color: Acorn, Size: M, Number purchased: 2
+High Coast Eco-Shell Padded, Category: Eco-Shell Jacket's, Color: Navy, Size: S, Number purchased: 1
+Keb, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Sand, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Christopher Schutte
+Customer email: schutte_christopher@yahoo.com
+Number of owned products: 6
+
+Purchases: 
+Greenland Down No. 1, Category: Mid-Weight Jacket's, Color: Mountain Grey, Size: S, Number purchased: 2
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 48, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+14
+
+Do you want to save this database? 1. Yes 2. No
+2
+
+Goodbye!
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ ./a.out
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+14
+
+Do you want to save this database? 1. Yes 2. No
+2
+
+Goodbye!
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ clear
+
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ ./a.out
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+1
+
+Enter an inventory file name:
+Inven1.txt
+
+Inventory items succesfully added
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+13
+
+Product Catagory: Light Pants
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+Product Catagory: Eco-Shell Jacket's
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: S
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Mid-Weight Jacket's
+
+  Product Name: Räven
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Boots
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+Product Catagory: Parka's
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Heavy Pants
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+6
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+2
+
+Enter an customer purchases file name:
+CustLog1.txt
+
+
+Customer purchases successfully added
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+13
+
+Product Catagory: Light Pants
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 1
+
+Product Catagory: Eco-Shell Jacket's
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: S
+  Number Purchased: 1
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: M
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Mid-Weight Jacket's
+
+  Product Name: Räven
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Boots
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10
+  Number Purchased: 3
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+Product Catagory: Parka's
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: S
+  Number Purchased: 2
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Singi Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Heavy Pants
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 48
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Keb
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+6
+
+----------------------------------
+Customer name: Logan Mann
+Customer email: logan-mann@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: S, Number purchased: 2
+Singi Down, Category: Parka's, Color: Deep Forest, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 44, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Gentian Vuthi
+Customer email: gentian.vuthi@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Keb Eco-Shell, Category: Eco-Shell Jacket's, Color: Acorn, Size: M, Number purchased: 2
+High Coast Eco-Shell Padded, Category: Eco-Shell Jacket's, Color: Navy, Size: S, Number purchased: 1
+Keb, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Sand, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Christopher Schutte
+Customer email: schutte_christopher@yahoo.com
+Number of owned products: 6
+
+Purchases: 
+Greenland Down No. 1, Category: Mid-Weight Jacket's, Color: Mountain Grey, Size: S, Number purchased: 2
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 48, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+3
+
+Enter the email of the customer you would like to add:
+bellamanzo99@gmail.com
+
+Enter the name of the customer you would like to add:
+Bella Manzo
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+4
+
+Enter the purchasing customer's email:
+bellamanzo99@gmail.com
+
+Enter the purchasing customer's name:
+Bella Manzo
+
+Enter the name of the product being purchased:
+Lhasa
+
+Enter the category of the product being purchased:
+Boots
+
+Enter the color of the item being purchased:
+Brown
+
+Enter the size of the item being purchased:
+7
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+6
+
+----------------------------------
+Customer name: Bella Manzo
+Customer email: bellamanzo99@gmail.com
+Number of owned products: 1
+
+Purchases: 
+Lhasa, Category: Boots, Color: Brown, Size: 7, Number purchased: 1
+
+
+----------------------------------
+Customer name: Logan Mann
+Customer email: logan-mann@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: S, Number purchased: 2
+Singi Down, Category: Parka's, Color: Deep Forest, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 44, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Gentian Vuthi
+Customer email: gentian.vuthi@gmail.com
+Number of owned products: 6
+
+Purchases: 
+Keb Eco-Shell, Category: Eco-Shell Jacket's, Color: Acorn, Size: M, Number purchased: 2
+High Coast Eco-Shell Padded, Category: Eco-Shell Jacket's, Color: Navy, Size: S, Number purchased: 1
+Keb, Category: Heavy Pants, Color: Black, Size: 46, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Sand, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+----------------------------------
+Customer name: Christopher Schutte
+Customer email: schutte_christopher@yahoo.com
+Number of owned products: 6
+
+Purchases: 
+Greenland Down No. 1, Category: Mid-Weight Jacket's, Color: Mountain Grey, Size: S, Number purchased: 2
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 48, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 46, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+5
+
+Enter the name of the product being added to inventory:
+Salt Rock
+
+Enter the category of the product being added to inventory:
+Low Cut Shoes
+
+Enter the color of the product being added to inventory:
+Navy
+
+Enter the size of the product being added to inventory:
+10
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+13
+
+Product Catagory: Light Pants
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 1
+
+Product Catagory: Eco-Shell Jacket's
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: S
+  Number Purchased: 1
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: M
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Mid-Weight Jacket's
+
+  Product Name: Räven
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+Product Catagory: Boots
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10
+  Number Purchased: 3
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 7
+  Number Purchased: 1
+
+Product Catagory: Parka's
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: S
+  Number Purchased: 2
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Singi Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Heavy Pants
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 48
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: Keb
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+Product Catagory: Low Cut Shoes
+
+  Product Name: Salt Rock
+  Color: Navy
+  Size: 10
+  Number Purchased: 0
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+7
+
+Enter the email of the customer whose information you wish to view:
+bellamanzo99@gmail.com
+
+----------------------------------
+Customer name: Bella Manzo
+Customer email: bellamanzo99@gmail.com
+Number of owned products: 1
+
+Purchases: 
+Lhasa, Category: Boots, Color: Brown, Size: 7, Number purchased: 1
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+8
+
+Enter the email of the customer who's information you wish to view:
+logan-mann@gmail.com
+
+Expedition Down Lite, Category: Parka's, Color: Black, Size: S, Number Purchased: 2
+Singi Down, Category: Parka's, Color: Deep Forest, Size: S, Number Purchased: 1
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Black, Size: 46, Number Purchased: 1
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+logan-mann@gmail.com
+
+Number of products owned by Logan Mann: 5
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+schutte_christopher@yahoo.com
+
+Number of products owned by Christopher Schutte: 5
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+bellamanzo99@gmail.com
+
+Number of products owned by Bella Manzo: 1
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+10
+
+Here are the top 5 most purchased items: 
+1. 
+Lhasa, Category: Boots, Color: Brown, Size: 10, Number Purchased: 3
+
+2. 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: S, Number Purchased: 2
+
+3. 
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 46, Number Purchased: 1
+
+4. 
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number Purchased: 1
+
+5. 
+Greenland Down No. 1, Category: Mid-Weight Jacket's, Color: Mountain Grey, Size: S, Number Purchased: 1
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+11
+
+Enter a product name:
+Lhasa
+
+Here are all the customers who bought Lhasa: 
+Name: Bella Manzo E-mail: bellamanzo99@gmail.com
+Name: Logan Mann E-mail: logan-mann@gmail.com
+Name: Gentian Vuthi E-mail: gentian.vuthi@gmail.com
+Name: Christopher Schutte E-mail: schutte_christopher@yahoo.com
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+12
+
+Enter the email of the customer you want to receive recommendations for:
+schutte_christopher@yahoo.com
+
+Here are some similar products to Christopher Schutte's most purchased item.
+Räven, Color: Dusk
+Skögso Padded, Color: Thunder Grey
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+14
+
+Do you want to save this database? 1. Yes 2. No
+1
+
+Enter the name of the file you wish to write customer data to:
+saveCust1.txt
+
+Enter the name of the file you wish to write inventory data to:
+saveInven1.txt
+
+Database saved. Goodbye!
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ clear
+
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ ./a.out
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+1
+
+Enter an inventory file name:
+Inven1.txt
+
+Inventory items succesfully added
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+2
+
+Enter an customer purchases file name:
+CustLog2.txt
+
+
+Customer purchases successfully added
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+6
+
+----------------------------------
+Customer name: Bella Manzo
+Customer email: bellamanzo99@gmail.com
+Number of owned products: 9
+
+Purchases: 
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Dark Olive, Size: 44, Number purchased: 2
+Abisko Eco-Shell, Category: Eco-Shell Jacket's, Color: Black, Size: S, Number purchased: 2
+High Coast Trouser, Category: Light Pants, Color: Sand, Size: 44, Number purchased: 2
+Anvik, Category: Boots, Color: Brown, Size: 7, Number purchased: 1
+Expedition Down Lite, Category: Parka's, Color: Green, Size: S, Number purchased: 1
+Singi Down, Category: Parka's, Color: Deep Forest, Size: S, Number purchased: 1
+
+
+----------------------------------
+Customer name: Logan Mann
+Customer email: logan-mann@gmail.com
+Number of owned products: 3
+
+Purchases: 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: L, Number purchased: 2
+Singi Down, Category: Parka's, Color: Deep Forest, Size: L, Number purchased: 1
+
+
+----------------------------------
+Customer name: Gentian Vuthi
+Customer email: gentian.vuthi@gmail.com
+Number of owned products: 12
+
+Purchases: 
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number purchased: 2
+Keb Eco-Shell, Category: Eco-Shell Jacket's, Color: Black, Size: M, Number purchased: 2
+Abisko Lite, Category: Light Pants, Color: Black, Size: 46, Number purchased: 2
+Lhasa, Category: Boots, Color: Brown, Size: 11, Number purchased: 2
+Greenland Down No. 1, Category: Mid-Weight Jacket's, Color: Dusk, Size: S, Number purchased: 1
+High Coast Eco-Shell Padded, Category: Eco-Shell Jacket's, Color: Navy, Size: M, Number purchased: 1
+Keb, Category: Heavy Pants, Color: Black, Size: 50, Number purchased: 1
+High Coast Hike, Category: Light Pants, Color: Mountain Grey, Size: 46, Number purchased: 1
+
+
+----------------------------------
+Customer name: Christopher Schutte
+Customer email: schutte_christopher@yahoo.com
+Number of owned products: 3
+
+Purchases: 
+Tatra Light, Category: Boots, Color: Brown, Size: 10, Number purchased: 1
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: M, Number purchased: 1
+Lhasa, Category: Boots, Color: Brown, Size: 12, Number purchased: 1
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+Gentian Vuthi
+
+Customer does not exist in the database.
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+gentian.vuthi@gmail.com
+
+Number of products owned by Gentian Vuthi: 8
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+9
+
+Enter the email of the customer who's information you wish to view:
+schutte_christopher@yahoo.com
+
+Number of products owned by Christopher Schutte: 3
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+10
+
+Here are the top 5 most purchased items: 
+1. 
+Abisko Lite, Category: Light Pants, Color: Black, Size: 46, Number Purchased: 2
+
+2. 
+High Coast Trouser, Category: Light Pants, Color: Sand, Size: 44, Number Purchased: 2
+
+3. 
+Räven, Category: Mid-Weight Jacket's, Color: Black, Size: S, Number Purchased: 2
+
+4. 
+Sörmland Tapered Winter, Category: Heavy Pants, Color: Dark Olive, Size: 44, Number Purchased: 2
+
+5. 
+Expedition Down Lite, Category: Parka's, Color: Black, Size: L, Number Purchased: 2
+
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+11
+
+Enter a product name:
+Lhasa
+
+Here are all the customers who bought Lhasa: 
+Name: Gentian Vuthi E-mail: gentian.vuthi@gmail.com
+Name: Christopher Schutte E-mail: schutte_christopher@yahoo.com
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+12
+
+Enter the email of the customer you want to receive recommendations for:
+gentian.vuthi@gmail.com
+
+Here are some similar products to Gentian Vuthi's most purchased item.
+Skögso Padded, Color: Thunder Grey
+Greenland Down No. 1, Color: Mountain Grey
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+13
+
+Product Catagory: Light Pants
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 46
+  Number Purchased: 2
+
+  Product Name: Abisko Lite
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Sand
+  Size: 44
+  Number Purchased: 2
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Trouser
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Sand
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 46
+  Number Purchased: 1
+
+  Product Name: High Coast Hike
+  Color: Mountain Grey
+  Size: 44
+  Number Purchased: 0
+
+Product Catagory: Eco-Shell Jacket's
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: M
+  Number Purchased: 1
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Navy
+  Size: S
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: High Coast Eco-Shell Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Tarmac
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Abisko Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Acorn
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: M
+  Number Purchased: 1
+
+  Product Name: Keb Eco-Shell
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Mid-Weight Jacket's
+
+  Product Name: Räven
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Räven
+  Color: Black
+  Size: M
+  Number Purchased: 1
+
+  Product Name: Räven
+  Color: Black
+  Size: S
+  Number Purchased: 2
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Thunder Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Skögso Padded
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Mountain Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Dusk
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Greenland Down No. 1
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Boots
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Anvik
+  Color: Brown
+  Size: 7
+  Number Purchased: 1
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 12
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 11
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 10
+  Number Purchased: 1
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Tatra Light
+  Color: Brown
+  Size: 7
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 12
+  Number Purchased: 1
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 11
+  Number Purchased: 1
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 10
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 9
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8.5
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 8
+  Number Purchased: 0
+
+  Product Name: Lhasa
+  Color: Brown
+  Size: 7
+  Number Purchased: 1
+
+Product Catagory: Parka's
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Grey
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Keb Expedition Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Green
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: L
+  Number Purchased: 2
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Expedition Down Lite
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: L
+  Number Purchased: 1
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Deep Forest
+  Size: S
+  Number Purchased: 1
+
+  Product Name: Singi Down
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Singi Down
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Dusk
+  Size: S
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: L
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: M
+  Number Purchased: 0
+
+  Product Name: Yupik
+  Color: Black
+  Size: S
+  Number Purchased: 0
+
+Product Catagory: Heavy Pants
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 2
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Sörmland Tapered Winter
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Dark Olive
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Vidda Pro
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 50
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Dusk
+  Size: 44
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 56
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 54
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 52
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 50
+  Number Purchased: 1
+
+  Product Name: Keb
+  Color: Black
+  Size: 48
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 46
+  Number Purchased: 0
+
+  Product Name: Keb
+  Color: Black
+  Size: 44
+  Number Purchased: 0
+
+-----------------------------------------------------------------------
+======= Main Menu =======
+
+1. Read products from a file into inventory
+
+2. Read customer purchases from a file into the database
+
+3. Add a customer to the database
+
+4. Add a purchase to a customer's record
+
+5. Add a product to inventory
+
+6. Print all customer information
+
+7. Print all of a specific customer's information
+
+8. Print a customer's top three most bought items
+
+9. Print the number of products a customer has purchased
+
+10. Print the store's top 5 most popular items
+
+11. Print all the customers who purchased a specific item
+
+12. Get product recommendations for a specific customer
+
+13. Print all items in inventory
+
+14. Quit
+-----------------------------------------------------------------------
+
+Enter option:
+14
+
+Do you want to save this database? 1. Yes 2. No
+1
+
+Enter the name of the file you wish to write customer data to:
+saveCust2.txt
+
+Enter the name of the file you wish to write inventory data to:
+saveInven2.txt
+
+Database saved. Goodbye!
+rgnt2-64-201-dhcp:Data-Structures-Project-FinalBuild christopherschutte$ 
